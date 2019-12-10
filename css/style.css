@@ -23,7 +23,7 @@ body {
     font-weight: 400;
     color: #212529;
     font-family: Arvo;
-    background: black;
+
 }
 
     /* navigation bar */
@@ -36,8 +36,14 @@ body {
 }
 .nav-item {
     padding-left: 1rem;
+    color: silver;
+    text-decoration: none;
 }
 
+.nav-item a:hover{
+    text-decoration: none;
+    color: white;
+}
 .navbar-brand {
      display: inline-block;
      front-size: 1.25rem;
@@ -45,23 +51,33 @@ body {
      white-space: nowrap;
      margin-right: 0;
 }
-.navbar-text mb{
-    font-family: Arvo;
-    font-size: 1rem;
+.navbar-dark .navbar-text{
+    color: white;
 }
+
+
 .navbar-text {
     display: block;
     padding-bottom: .5rem;
     padding-top: .5rem;
-    line-height:
-    box-sizing: border-box;
     margin: 0;
     font-family: Arvo;
     font-size: 1rem;
 }
+
+.navbar-text {
+    box-sizing: border-box;
+}
+
 .navbar-item{
     font-family: Arvo;
     font-size: 1rem;
+
+}
+.menuTop {
+    color: silver;
+    text-decoration: none
+
 }
 
 .navbar-nav{
@@ -132,7 +148,7 @@ min-height: 300px;
 
     text-align: center;
     padding: 40px;
-    width: 100%
+    width: 100%;
     font-family: Arvo;
 
 
@@ -158,7 +174,7 @@ min-height: 300px;
     margin: 0 auto;
     text-align: center;
     padding: 0px;
-    width: 100%
+    width: 100%;
     font-family: Arvo;
     font-size: 1.25rem;
 
@@ -237,11 +253,8 @@ min-height: 300px;
     padding: 50px;
 }
 
-.item2 {
 
 
-    background: transparation;
-}
 .aab {
     min-height: 450px;
 }
@@ -258,7 +271,7 @@ min-height: 300px;
 .bbba {
     min-height: 300px;
     margin-top: 30px;
-    justify-content: flex;
+
 }
 
 .bbb {
@@ -276,7 +289,7 @@ min-height: 300px;
 }
 .header3 {
     color: silver;
-    background: transparation;
+
     padding: 40px;
     min-height: 300px;
     text-align: center;
