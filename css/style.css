@@ -171,7 +171,6 @@ body {
     min-height: auto;
     margin-top: 30px;
     text-align: center;
-    padding: 0px;
     width: 100%;
     font-family: Arvo;
     font-size: 1.25rem;
@@ -188,7 +187,7 @@ body {
     margin-top: 2rem;
     text-align: justify;
     color: silver;
-    font-variant: super;
+
 }
 .h4, h4 {
     color: silver;
@@ -198,10 +197,10 @@ body {
 .center {
     color: silver;
     text-align: justify;
-    overflow: hidden; /* Обрезаем все, что не помещается в область */
-    padding: 5px; /* Поля вокруг текста */
-    text-overflow: ellipsis;
-    font-variant: super;
+    overflow: hidden;
+    padding: 5px;
+
+
 }
 
 .p, p {
@@ -226,11 +225,7 @@ body {
     margin-top: 10px;
 }
 
-/* .ABS {
-    background: #f4f8ff;
-    min-height: 1180px;
-}
-*/
+
 .header2 {
     text-align: justify;
     padding: 50px;
@@ -272,7 +267,6 @@ body {
 }
 .header3 {
     color: silver;
-    font-variant: super;
     padding: 40px;
     min-height: 300px;
     text-align: justify;
@@ -288,6 +282,7 @@ body {
     height: inherit;
 }
 
+
 .tt {
     border: 1px silver dotted;
     min-height: 175px;
@@ -299,20 +294,31 @@ body {
 
 .about {
     min-height: 115px;
-    border: 1px silver solid;
+    border: 1px silver dotted;
     border-radius: 10px;
-    background: lightgray;
-    margin: 8px auto;
+    color: silver;
+    margin: 5px 0px;
+    max-width: 79%;
+}
+
+.about11 {
+    margin-top: 35px;
+    min-height: 115px;
+    border: 1px silver dotted;
+    border-radius: 10px;
+    color: silver;
+    max-width: 79%;
+
+
 }
 
 .about1 {
     min-height: 110px;
-    border: 1px silver solid;
-    border-radius: 10px;
-    background: lightgray;
+    color: silver;
     text-align: center;
     margin-top: 100px;
     padding: 15px;
+    border: 1px white solid;
 }
 
 .AAC {
