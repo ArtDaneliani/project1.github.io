@@ -25,7 +25,6 @@ body {
     font-family: Arvo;
     background: #020202;
 }
-
     /* navigation bar */
 .navbar {
     background-color: black;
@@ -204,7 +203,7 @@ body {
 }
 
 .p, p {
-    color: black;
+    color: silver;
 }
 
 .carous{
@@ -260,6 +259,7 @@ body {
 }
 .h3 ,h3 {
     color: silver;
+    text-align: center;
 }
 
 .next {
@@ -277,9 +277,9 @@ body {
     width: 100%;
     padding: 0px;
 }
-.innovation{
-    max-width: 120%;
-    height: inherit;
+.innovation {
+    max-width: 100%;
+    height: 100%;
 }
 
 
@@ -315,10 +315,21 @@ body {
 .about1 {
     min-height: 110px;
     color: silver;
+    text-align: justify;
+    margin-top: 100px;
+    padding: 15px;
+
+}
+.about111 {
+    min-height: 110px;
+    color: silver;
     text-align: center;
     margin-top: 100px;
     padding: 15px;
-    border: 1px white solid;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
 }
 
 .AAC {
@@ -332,12 +343,12 @@ body {
     margin-bottom: 5rem;
 }
 .skills {
-    height: 500px;
+    min-height: 550px;
     border: 1px silver solid;
     border-radius: 8px;
-    text-align: center;
+    text-align: justify;
     padding: 15px;
-    font-color: silver;
+    color: silver;
 }
 .text {
     min-height: 250px;
@@ -346,5 +357,40 @@ body {
 
 .midBar1Fluid1 {
     background: #071f31;
-    min-height: 710px;
+    min-height: 650px;
+
+}
+
+.PLAYER a:hover {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: silver;
+
+}
+
+.btn1 {
+
+    display: inline-block;
+    color: black;
+    font-size: 125%;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .25em .5em;
+    outline: none;
+    border: 1px solid rgb(0,25,51);
+    border-radius: 7px;
+    background: rgb(24,23,23) linear-gradient(rgb(101,103,107), rgb(64,64,64));
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+    transition: box-shadow .2s, border-color .2s;
+}
+.btn1:hover {
+    box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5);
+}
+.btn1:active {
+    padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+    border-color: rgba(177,159,0,1);
+    box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
 }
