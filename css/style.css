@@ -2,15 +2,31 @@
     .owl-carousel item {
         min-height: 360px;
     }
-    .item2 bbb {
-        min-height: 300px;
+    .bbb {
+        min-height: 0px !important;
+        margin: 2px  !important;
     }
-    .item2 bbba {
-        min-height: 300px;
+    .bbba {
+        min-height: 0px !important;
+        margin: 2px  !important;
     }
-    .item bb {
-        min-height: 300px;
+    .bb {
+        min-height: 0px !important;
+        margin: 2px  !important;
     }
+    .aab{
+        min-height: 0px !important;
+        margin: 2px  !important;
+    }
+    .aaa{
+        min-height: 0px !important;
+        margin: 2px  !important;
+    }
+    .aa {
+        min-height: 0px !important;
+        margin: 2px  !important;
+    }
+
     .about1 {
         margin-top: 10px !important;
     }
@@ -43,6 +59,14 @@
     }
     .bb, .aa {
         margin-top: 10px !important;
+    }
+
+    .img-fluid {
+        width: 100%;
+    }
+    .no_padding {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 
@@ -247,7 +271,7 @@ body {
     padding: 50px;
 }
 
-
+/* IMAGES */
 
 .aab {
     min-height: 450px;
@@ -274,6 +298,8 @@ body {
 .aaa {
     min-height: 450px;
 }
+
+
 .h3 ,h3 {
     color: silver;
     text-align: center;
