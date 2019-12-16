@@ -43,7 +43,8 @@
         padding-right: 0px !important;
     }
     .about {
-        max-width: 100% !important;
+
+        height: 60px !important;
     }
     .batt {
         position: relative !important;
@@ -321,8 +322,7 @@ body {
     padding: 0px;
 }
 .innovation {
-    max-width: 100%;
-    height: 100%;
+
 }
 
 
