@@ -14,7 +14,36 @@
     .about1 {
         margin-top: 10px !important;
     }
-
+    .q5 {
+        display: block !important;
+        margin: 5px auto !important;
+        width: 30px !important;
+    }
+    .q1 {
+        height: 50px !important;
+        padding: 5px !important;
+    }
+    .midBar1Fluid {
+        padding-right: 0px !important;
+    }
+    .about {
+        max-width: 100% !important;
+    }
+    .batt {
+        position: relative !important;
+        right: 0px !important;
+    }
+    .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .cont {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .bb, .aa {
+        margin-top: 10px !important;
+    }
 }
 
 body {
@@ -161,6 +190,7 @@ body {
     width: 100%;
     font-family: Arvo;
     font-size: 1.25rem;
+    padding-left: 0px;
 }
 
 
@@ -172,6 +202,7 @@ body {
     margin-left: 30px;
     text-align: justify;
     color: silver;
+
 
 }
 .h4, h4 {
@@ -287,17 +318,6 @@ body {
     max-width: 79%;
 }
 
-.about11 {
-    margin-top: 35px;
-    min-height: 115px;
-    border: 1px silver dotted;
-    border-radius: 10px;
-    color: silver;
-    max-width: 79%;
-
-
-}
-
 .about1 {
     min-height: 110px;
     color: silver;
@@ -372,8 +392,16 @@ a {
                     /*FOOTER*/
 .q1 {
     background: #7e8e90;
-    min-height: 245px;
+    height: 245px;
     margin-top: 20px;
+
+}
+
+
+                /*FLAT ICON*/
+.q5 {
+    display: block;
+    margin: 70px auto;
 }
 .head3 {
     text-align: center;
@@ -381,11 +409,12 @@ a {
 }
 textarea {
     resize: none;
-    width: 547px;
+    width: 100%;
 }
 input {
     text-align: center;
     color: gray;
+    width: 100%;
 }
 .mail {
     margin-bottom: 30px;
