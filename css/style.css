@@ -42,8 +42,8 @@
     .midBar1Fluid {
         padding-right: 0px !important;
     }
-    .about {
-
+    .about2 {
+        width: 100% !important;
         height: 60px !important;
     }
     .batt {
@@ -246,6 +246,7 @@ body {
 
 .p, p {
     color: silver;
+    font-family: initial;
 
 }
 
@@ -335,23 +336,19 @@ body {
     color: silver;
 }
 
-.about {
-    min-height: 115px;
+.about2 {
+    min-height: 68px;
     border: 1px silver dotted;
     border-radius: 10px;
     color: silver;
     margin: 5px 0px;
     max-width: 79%;
 }
-
 .about1 {
-    min-height: 110px;
-    color: silver;
-    text-align: justify;
-    margin-top: 100px;
-    padding: 15px;
-
+    margin-top: 50px;
 }
+
+
 .about111 {
     min-height: 110px;
     color: silver;
@@ -373,7 +370,7 @@ body {
 
 
 .skills {
-    min-height: 550px;
+    height: 550px;
     border: 1px silver solid;
     border-radius: 8px;
     color: silver;
