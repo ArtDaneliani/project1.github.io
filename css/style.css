@@ -3,28 +3,28 @@
         min-height: 360px;
     }
     .bbb {
-        margin-top: 10px;
-        margin-left: 12px;
+        margin-top: 0px !important;
+        margin-left: 12px !important;
     }
     .bbba {
-        margin-top: 10px;
-        margin-left: 12px;
+        margin-top: 10px !important;
+        margin-left: 12px !important;
     }
     .bb {
-        margin-top: 10px;
-        margin-left: 12px;
+        margin-top: 0px !important;
+        margin-left: 12px !important;
     }
     .aab{
-        margin-top: 10px;
-        margin-left: 12px;
+        margin-top: 10px !important;
+        margin-left: 12px !important;
     }
     .aaa{
-        margin-top: 10px;
-        margin-left: 12px;
+        margin-top: 10px !important;
+        margin-left: 12px !important;
     }
-    .aa {
-        margin-top: 10px;
-        margin-left: 12px;
+    .aa3 {
+        margin-top: 0px !important;
+        margin-left: 12px !important;
     }
 
     .about1 {
@@ -110,7 +110,9 @@
     .tt {
         margin: 0px auto !important;
     }
-
+    .innovation {
+        padding-right: 5px !important;
+    }
 }
 
 
@@ -325,7 +327,6 @@ body {
     margin-top: 30px;
     min-height: 450px;
 }
-
 
 .bb {
     min-height: 300px;
