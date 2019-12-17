@@ -1,30 +1,30 @@
-@media (max-width: 580px) {
+@media (max-width: 375px) {
     .owl-carousel item {
         min-height: 360px;
     }
     .bbb {
-        min-height: 0px !important;
-        margin: 2px  !important;
+        margin-top: 10px;
+        margin-left: 12px;
     }
     .bbba {
-        min-height: 0px !important;
-        margin: 2px  !important;
+        margin-top: 10px;
+        margin-left: 12px;
     }
     .bb {
-        min-height: 0px !important;
-        margin: 2px  !important;
+        margin-top: 10px;
+        margin-left: 12px;
     }
     .aab{
-        min-height: 0px !important;
-        margin: 2px  !important;
+        margin-top: 10px;
+        margin-left: 12px;
     }
     .aaa{
-        min-height: 0px !important;
-        margin: 2px  !important;
+        margin-top: 10px;
+        margin-left: 12px;
     }
     .aa {
-        min-height: 0px !important;
-        margin: 2px  !important;
+        margin-top: 10px;
+        margin-left: 12px;
     }
 
     .about1 {
@@ -38,13 +38,19 @@
     .q1 {
         height: 50px !important;
         padding: 5px !important;
+        margin-top: 0px !important;
     }
     .midBar1Fluid {
         padding-right: 0px !important;
+        margin-top: 0px !important;
     }
     .about2 {
         width: 100% !important;
         height: 60px !important;
+        margin: 0px auto !important;
+    }
+    .about111 {
+        margin: 0 auto !important;
     }
     .batt {
         position: relative !important;
@@ -61,15 +67,52 @@
     .bb, .aa {
         margin-top: 10px !important;
     }
-
-    .img-fluid {
-        width: 100%;
-    }
     .no_padding {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .skills {
+        height: auto !important;
+    }
+    .header3 {
+        padding: 15px !important;
+        font-family: initial !important;
+        padding-top: 0px !important;
+    }
+    .p1, p {
+        font-size: initial !important;
+        text-align: justify !important;
+        padding: 0px 15px !important;
+    }
+    .head3 {
+        text-align: justify !important;
+        font-size: initial !important;
+        padding-bottom: 15px !important;
+    }
+    .fa {
+        color: #7e8e90 !important;
+    }
+    .fas {
+        color: #7e8e90 !important;
+    }
+    .AAC {
+        height: 220px !important;
+    }
+    .headEr {
+        padding: 0px !important;
+    }
+    .cont {
+        margin: 0px auto !important;
+    }
+    .midBar {
+        margin: 0px auto !important;
+    }
+    .tt {
+        margin: 0px auto !important;
+    }
+
 }
+
 
 body {
 
@@ -251,11 +294,11 @@ body {
 }
 
 .carous{
-
     margin: 0 auto;
+}
 
-
-
+.innovation {
+    margin-top: 6px;
 }
 .midBar {
     color: silver;
@@ -312,8 +355,7 @@ body {
 }
 .header3 {
     color: silver;
-    padding: 40px;
-    min-height: 300px;
+    min-height: 250px;
     text-align: justify;
 }
 
@@ -337,12 +379,12 @@ body {
 }
 
 .about2 {
-    min-height: 68px;
+    height: 115px;
     border: 1px silver dotted;
     border-radius: 10px;
     color: silver;
-    margin: 5px 0px;
-    max-width: 79%;
+    margin: 20px 0px 0px 4px;
+    width: 79%;
 }
 .about1 {
     margin-top: 50px;
@@ -363,7 +405,7 @@ body {
 
 .AAC {
     /*background: #f4f8ff;*/
-    min-height: 300px;
+    height: 250px;
 
 }
       /* OUR RECENT BLOG*/
