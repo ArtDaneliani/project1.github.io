@@ -1,30 +1,30 @@
-@media (max-width: 375px) {
+@media (max-width: 300px) {
     .owl-carousel item {
         min-height: 360px;
     }
     .bbb {
         margin-top: 0px !important;
-        margin-left: 12px !important;
+        margin-left: 0px !important;
     }
     .bbba {
         margin-top: 10px !important;
-        margin-left: 12px !important;
+        margin-left: 0px !important;
     }
     .bb {
         margin-top: 0px !important;
-        margin-left: 12px !important;
+        margin-left: 0px !important;
     }
     .aab{
         margin-top: 10px !important;
-        margin-left: 12px !important;
+        margin-left: 0px !important;
     }
     .aaa{
         margin-top: 10px !important;
-        margin-left: 12px !important;
+        margin-left: 0px !important;
     }
     .aa3 {
         margin-top: 0px !important;
-        margin-left: 12px !important;
+        margin-left: 0px !important;
     }
 
     .about1 {
@@ -44,6 +44,7 @@
     .midBar1Fluid {
         padding-right: 0px !important;
         margin-top: 0px !important;
+       
     }
     .about2 {
         width: 100% !important;
@@ -113,6 +114,9 @@
     }
     .innovation {
         padding-right: 5px !important;
+    }
+    .footer {
+        padding-bottom: 5px !important;
     }
 }
 
@@ -202,8 +206,8 @@ body {
 /*column*/ 
 
 .bg{
-    background: #ebebeb;
-    padding: 30px auto;
+    background-color: #ebebeb;
+    padding: 30px 0px;
     min-height: 300px;
     margin: 30px auto;
     
@@ -262,6 +266,7 @@ body {
     font-family: Arvo;
     font-size: 1.25rem;
     padding-left: 0px;
+
 }
 
 
@@ -359,6 +364,7 @@ body {
     color: silver;
     min-height: 250px;
     text-align: justify;
+    padding-top: 30px;
 }
 
 .img {
@@ -473,6 +479,7 @@ a {
 .head3 {
     text-align: center;
     color: silver;
+
 }
 textarea {
     resize: none;
@@ -499,8 +506,13 @@ input {
 .p1, p {
     text-align: center;
     padding-top: 30px;
+    font-family: initial;
+    font-size: 16px;
 }
 
 .foot {
     position: relative;
+}
+.footer {
+    padding-bottom: 70px;
 }
