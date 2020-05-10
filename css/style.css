@@ -1,4 +1,4 @@
-@media (max-width: 300px) {
+@media (max-width: 375px) {
     .owl-carousel item {
         min-height: 360px;
     }
@@ -25,6 +25,7 @@
     .aa3 {
         margin-top: 0px !important;
         margin-left: 0px !important;
+
     }
 
     .about1 {
@@ -44,12 +45,21 @@
     .midBar1Fluid {
         padding-right: 0px !important;
         margin-top: 0px !important;
-       
+        padding-left: 0px!important;
     }
     .about2 {
         width: 100% !important;
         height: 60px !important;
         margin: 0px auto !important;
+        position: inherit !important;
+    }
+
+    .cel {
+        width: 97% !important;
+        display: block !important;
+        position: relative !important;
+        left: 5px !important;
+
     }
     .about111 {
         margin: 0 auto !important;
@@ -124,7 +134,7 @@
 body {
 
     font-family: Arvo;
-    background: #0d1114;
+    background:  black/*#0d1114; */;
 }
     /* navigation bar */
 .navbar {
@@ -222,6 +232,7 @@ body {
     height: 360px;
     width: 100%;
     padding-right: 5px;
+
 }
 
 
@@ -305,8 +316,12 @@ body {
     margin: 0 auto;
 }
 
+.img-fluid innovation{
+  /*  box-shadow: 0 0px 20px 5px gray; */
+}
 .innovation {
     margin-top: 6px;
+
 }
 .midBar {
     color: silver;
@@ -328,27 +343,33 @@ body {
 
 .aab {
     min-height: 450px;
+  /*  box-shadow: 0 0px 10px 5px gray; */
 }
 .aa {
     margin-top: 30px;
     min-height: 450px;
+  /*  box-shadow: 0 0px 20px 5px gray; */
 }
 
 .bb {
     min-height: 300px;
     margin-top: 30px;
+  /*  box-shadow: 0 0px 20px 5px gray; */
 }
 .bbba {
     min-height: 300px;
     margin-top: 30px;
+  /*  box-shadow: 0 0px 20px 5px gray;  */
 
 }
 
 .bbb {
     min-height: 300px;
+
 }
 .aaa {
     min-height: 450px;
+  /*  box-shadow: 0 0px 20px 5px gray; */
 }
 
 
@@ -371,8 +392,11 @@ body {
     height: 100%;
     width: 100%;
     padding: 0px;
+
 }
 .innovation {
+    width: 95%;
+    margin-left: 9px;
 
 }
 
@@ -392,8 +416,14 @@ body {
     border-radius: 10px;
     color: silver;
     margin: 20px 0px 0px 4px;
-    width: 79%;
+    width: 90%;
+    display: block;
+    position: relative;
+    left: 9%;
+    margin-top: 25px;
 }
+
+
 .about1 {
     margin-top: 50px;
 }
@@ -403,10 +433,9 @@ body {
     min-height: 110px;
     color: silver;
     text-align: center;
-    margin-top: 100px;
     padding: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: end;
 
 }
